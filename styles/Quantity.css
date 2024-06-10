@@ -1,0 +1,30 @@
+/* Quantity.css */
+.quantity-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.quantity-button {
+  font-size: 16px;
+  padding: 10px;
+  border: 1px solid gray;
+  background-color: white;
+  cursor: pointer;
+  transition:
+    background-color 0.3s,
+    color 0.3s;
+}
+
+.quantity-button.minus {
+  color: #f02d34;
+}
+
+.quantity-button.plus {
+  color: rgb(49, 168, 49);
+}
+
+.quantity-number {
+  font-size: 20px;
+  padding: 0 10px;
+}
