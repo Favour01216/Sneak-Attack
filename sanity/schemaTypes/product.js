@@ -36,16 +36,5 @@ export default {
       title: 'Details',
       type: 'string',
     },
-    {
-      name: 'sizeOptions',
-      title: 'Size Options',
-      type: 'array',
-      of: [{type: 'string'}],
-    },
-    {
-      name: 'quantity',
-      title: 'Quantity',
-      type: 'number',
-    },
   ],
 }

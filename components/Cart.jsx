@@ -26,7 +26,7 @@ const Cart = () => {
 
   const handleCheckout = async () => {
     const stripe = await getStripe();
-    //creating an api request to the backend
+
     const response = await fetch("/api/stripe", {
       method: "POST",
       headers: {
