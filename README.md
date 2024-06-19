@@ -53,12 +53,9 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 Create a `.env.local` file in the root directory and add your environment variables:
 
 ```env
-NEXT_PUBLIC_STRIPE_PUBLIC_KEY=your_stripe_public_key
+NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=your_stripe_public_key
 STRIPE_SECRET_KEY=your_stripe_secret_key
-SANITY_PROJECT_ID=your_sanity_project_id
-SANITY_DATASET=your_sanity_dataset
-SANITY_TOKEN=your_sanity_token
-NEXT_PUBLIC_VERCEL_URL=your_vercel_url
+NEXT_PUBLIC_SANITY_TOKEN=your_sanity_token
 ```
 
 ## Learn More
