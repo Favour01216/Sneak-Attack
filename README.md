@@ -1,4 +1,28 @@
+# SneakAttack E-commerce App
+
+SneakAttack is a cutting-edge e-commerce platform that offers a seamless shopping experience for sneaker enthusiasts. Built with modern technologies, it ensures fast performance and secure transactions.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+## Features
+
+- **User Authentication:** Secure login and registration system.
+- **Product Listings:** Detailed product pages with images, descriptions, and prices.
+- **Shopping Cart:** Add, remove, and update products in the cart.
+- **Stripe Payment Integration:** Secure payment processing with Stripe.
+- **Order Management:** Track order status and history.
+- **Responsive Design:** Optimized for both desktop and mobile devices.
+- **Search Functionality:** Easily find products using the search bar.
+- **Admin Panel:** Manage products, orders, and users.
+
+## Technologies Used
+
+- **Framework:** [Next.js](https://nextjs.org/)
+- **Deployment:** [Vercel](https://vercel.com/)
+- **Payment Gateway:** [Stripe](https://stripe.com/)
+- **Database and CMS:** [Sanity](https://www.sanity.io/)
+- **Styling:** CSS-in-JS (e.g., styled-components), Tailwind CSS, etc.
+- **State Management:** Redux, Context API, etc.
 
 ## Getting Started
 
@@ -24,6 +48,19 @@ The `pages/api` directory is mapped to `/api/*`. Files in this directory are tre
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
+## Environment Variables
+
+Create a `.env.local` file in the root directory and add your environment variables:
+
+```env
+NEXT_PUBLIC_STRIPE_PUBLIC_KEY=your_stripe_public_key
+STRIPE_SECRET_KEY=your_stripe_secret_key
+SANITY_PROJECT_ID=your_sanity_project_id
+SANITY_DATASET=your_sanity_dataset
+SANITY_TOKEN=your_sanity_token
+NEXT_PUBLIC_VERCEL_URL=your_vercel_url
+```
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
@@ -38,3 +75,22 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## Live View
+
+![Home Page](./public/images/image.png)
+![Product Page](./public/images/product-page.png)
+![Cart Page](./public/images/cart.png)
+![Checkout Page](./public/images/checkout.png)
+
+## Contributing
+
+Contributions are welcome! Please fork the repository and create a pull request with your changes.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+---
+
+Made with ❤️ by [Favour Adesiyan](https://github.com/favour01216) 👋
